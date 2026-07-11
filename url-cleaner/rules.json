@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": ["si"]
+          }
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.youtube.com/*",
+      "resourceTypes": ["main_frame", "xmlhttprequest", "sub_frame"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": ["igsh"]
+          }
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.instagram.com/*",
+      "resourceTypes": ["main_frame", "xmlhttprequest", "sub_frame"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": ["si"]
+          }
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.youtu.be/*",
+      "resourceTypes": ["main_frame", "xmlhttprequest", "sub_frame"]
+    }
+  }
+]
