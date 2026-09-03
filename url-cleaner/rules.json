@@ -25,13 +25,13 @@
       "redirect": {
         "transform": {
           "queryTransform": {
-            "removeParams": ["igsh"]
+            "removeParams": ["si"]
           }
         }
       }
     },
     "condition": {
-      "urlFilter": "*://*.instagram.com/*",
+      "urlFilter": "*://*.youtu.be/*",
       "resourceTypes": ["main_frame", "xmlhttprequest", "sub_frame"]
     }
   },
@@ -43,13 +43,31 @@
       "redirect": {
         "transform": {
           "queryTransform": {
-            "removeParams": ["si"]
+            "removeParams": ["igsh"]
           }
         }
       }
     },
     "condition": {
-      "urlFilter": "*://*.youtu.be/*",
+      "urlFilter": "*://*.instagram.com/*",
+      "resourceTypes": ["main_frame", "xmlhttprequest", "sub_frame"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": ["ref_src", "ref_url"]
+          }
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.x.com/*",
       "resourceTypes": ["main_frame", "xmlhttprequest", "sub_frame"]
     }
   }

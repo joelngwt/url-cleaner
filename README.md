@@ -6,6 +6,9 @@ Currently only works for:
     - `si`
 - Instagram
     - `igsh`
+- X
+    - `ref_src`
+    - `ref_url`
 
 ## How To Install
 1. Download the `url-cleaner` folder.

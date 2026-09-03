@@ -1,15 +1,16 @@
 {
   "manifest_version": 3,
   "name": "Minimal URL Parameter Stripper",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Strips tracking parameters cleanly before requests hit the network.",
   "permissions": [
     "declarativeNetRequest"
   ],
   "host_permissions": [
     "*://*.youtube.com/*",
+    "*://*.youtu.be/*",
     "*://*.instagram.com/*",
-    "*://*.youtu.be/*"
+    "*://*.x.com/*"
   ],
   "declarative_net_request": {
     "rule_resources": [{
