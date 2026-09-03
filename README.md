@@ -6,6 +6,8 @@ Currently only works for:
     - `si`
 - Instagram
     - `igsh`
+    - `igsi`
+    - `utm_source`
 
 ## How To Install
 1. Download the `url-cleaner` folder.
