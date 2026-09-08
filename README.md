@@ -8,6 +8,7 @@ Currently only works for:
     - `igsh`
     - `igsi`
     - `utm_source`
+    - `stkn`
 
 ## How To Install
 1. Download the `url-cleaner` folder.

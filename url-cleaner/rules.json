@@ -43,7 +43,7 @@
       "redirect": {
         "transform": {
           "queryTransform": {
-            "removeParams": ["igsh", "igsi", "utm_source"]
+            "removeParams": ["igsh", "igsi", "utm_source", "stkn"]
           }
         }
       }
